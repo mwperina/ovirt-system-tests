@@ -52,6 +52,7 @@ def artifact_list():
         '/var/lib/pgsql/initdb_postgresql.log',
         '/var/lib/pgsql/data/log',
         '/var/log',
+        '/var/tmp/selenium',
     ]
 
 

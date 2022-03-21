@@ -21,6 +21,7 @@ from ost_utils.pytest.fixtures.ansible import ansible_host1
 from ost_utils.pytest.fixtures.ansible import ansible_hosts
 from ost_utils.pytest.fixtures.ansible import ansible_inventory
 from ost_utils.pytest.fixtures.ansible import ansible_storage
+from ost_utils.pytest.fixtures.ansible import ansible_storage_facts
 
 from ost_utils.pytest.fixtures.artifacts import artifacts
 from ost_utils.pytest.fixtures.artifacts import artifacts_dir
@@ -38,6 +39,7 @@ from ost_utils.pytest.fixtures.backend import host0_hostname
 from ost_utils.pytest.fixtures.backend import host1_hostname
 from ost_utils.pytest.fixtures.backend import hosts_hostnames
 from ost_utils.pytest.fixtures.backend import management_network_supports_ipv4
+from ost_utils.pytest.fixtures.backend import storage_hostname
 
 from ost_utils.pytest.fixtures.defaults import *
 
